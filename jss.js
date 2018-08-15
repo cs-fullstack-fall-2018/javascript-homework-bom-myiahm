@@ -9,7 +9,7 @@ var   monitorInfo =
     };
 for (var key in monitorInfo) {
     var value = monitorInfo[key];
-    document.write(value)
+    console.log(value)
 
 }
 
