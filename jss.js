@@ -7,7 +7,9 @@ var   monitorInfo =
         screenColor:screen.colorDepth,
         screenPix: screen.pixelDepth
     };
-Object.keys(monitorInfo).forEach(function(key)
-{
-    document.write(key);
-});
+for (var key in monitorInfo) {
+    var value = monitorInfo[key];
+    document.write(value)
+
+}
+
